@@ -1,0 +1,8 @@
+.homecards{
+ display: flex;
+ /* margin-left: 5px; */
+}
+
+.card{
+    margin-left: 20px;
+}

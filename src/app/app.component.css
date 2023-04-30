@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.intro{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(225, 27, 27);
+}
+
+img{
+    width: 4%;
+    margin-top: -92px;
+  }
+
+/* body {
+    background: url('https://i.pinimg.com/564x/2f/2a/c3/2f2ac310ecb2e6db2ddbaf9c69b8da0b.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  } */
+
+.rembody{
+    margin-top: 50px;
+    background-color: gainsboro;
+}
+
+h1{
+    background-color: rgb(212, 210, 210);
+    text-align: center;
+    font-weight: 10px;
+}
+
+/* .buttonRow{
+    display: flex;
+    margin-top: 10vh;
+} */
+
+.buttonTypes{
+    margin: auto;
+    /* cursor: pointer; */
+}
+
+/* .buttonTypes:hover{
+    background-color: blueviolet;
+} */
+
+.buttons {
+    margin-top: 40px;
+  }
+
+.buttons button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin: 0px 10px; */
+    cursor: pointer;
+    margin: 10px;
+    width: 280px;
+  }
+  
+  .buttons button:hover{
+      /* color: white; */
+      color: black;
+      /* background-color: black; */
+      /* background-color: bisque; */
+      background-color: rgb(175, 238, 252);
+  }
+

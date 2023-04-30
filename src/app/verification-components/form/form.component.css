@@ -1,0 +1,248 @@
+h3{
+  background-color: rgb(175, 238, 252);
+    text-align: center;
+    /* padding-top: 10px; */
+    margin-top: 20px;
+}
+
+/* h3.MoreDetail{
+    float: none;
+} */
+
+.box{
+  /* width: 300px; */
+  height: 150px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  /* background-color: bisque; */
+  padding: 5px;
+  margin-left: 5px;
+  width: 20%;
+}
+.boxphoto{
+  /* width: 300px; */
+  height: 300px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+    /* background-color: bisque; */
+    padding: 5px;
+    margin-left: 5px;
+    width: 25%;
+}
+
+#fullform{
+  display: flex;
+}
+
+.ApplicantDetail{
+    /* margin-left: 0px; */
+    width: 20%;
+    /* float: left; */
+}
+
+.formlines{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 5px;
+    /* width: 20%; */
+}
+.imageUpload{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    /* width: 20%; */
+}
+.tablelines{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 5px;
+    width: 20%;
+}
+.imagelines{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 5px;
+    width: 25%;
+}
+/* .box{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 5px;
+    width: 20%;
+}
+.boxphoto{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 5px;
+    width: 20%;
+} */
+.tableform{
+    /* text-align: center;
+    background-color: bisque; */
+    display: flex;
+    /* width: 20%; */
+}
+
+.imageform{
+  display: flex;
+}
+.boxform{
+    /* text-align: center;
+    background-color: bisque; */
+    display: flex;
+    /* width: 20%; */
+}
+.boximage{
+    /* text-align: center;
+    background-color: bisque; */
+    display: flex;
+    /* width: 20%; */
+}
+
+input, label {
+    margin: 5px 5px;
+  }
+  
+  .form-details {
+    /* margin: 30px auto; */
+    /* width: 450px; */
+     /* float: left; */
+     padding-left: 65px;
+     padding-top: 30px;
+    /* float: left; */
+    /* padding-left: 25px; */
+  }
+  .form-group {
+    margin: 30px auto;
+    width: 450px;
+    /* float: left; */
+    padding-left: 25px;
+    float: inline-start;
+  }
+  
+  /* .form-group {
+    margin: 30px auto;
+    width: 450px;
+    float: left;
+    padding-left: 25px;
+  } */
+  
+  /* .form-control {
+    float: left;
+  } */
+  
+  #inputStreet {
+    width: 100%;
+  }
+  
+  #inputCity {
+    width: 50%;
+  }
+  
+  #inputState {
+    width: 50%;
+  }
+
+  #inputDistrict{
+    margin-left: 5px;
+    width: 50%;
+  }
+  
+  #inputcontact {
+    width: 50%;
+  }
+  #inputID {
+    width: 50%;
+  }
+  
+  #inputZip {
+    width: 28%;
+  }
+  
+  #inputCounty {
+    width: 45%;
+  }
+  
+  #inputCountry {
+    width: 50%;
+  }
+
+  #gender{
+    margin-left: 5px;
+  }
+  #photoid{
+    margin-left: 5px;
+    /* width: 25%; */
+  }
+  
+  #ToPeriod{
+    margin-left: 25px;
+  }
+
+  #inputStation{
+    margin-left: 5px;
+  }
+
+  #exampleFormControlTextarea1{
+    height: 105px;
+  }
+
+  #tofrom{
+    width: 9%;
+  }
+  #tofromdate{
+    width: 85%;
+  }
+
+  .boxbox{
+
+  width: 80px;
+  }
+
+  /* #tableID{
+    width: 10%;
+  } */
+
+  /* #date{
+    width: 10%;
+  } */
+
+  /* .input-group{
+    margin: auto;
+  } */
+
+   /* .buttons button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+     cursor: pointer;
+    width: 100px;
+    float: right;
+    position: fixed;
+    /* margin-top: 200px; */
+  /* }   */
+
+  .buttons button{
+    position: fixed;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+    
+  }
+
+  #boxbutton{
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }

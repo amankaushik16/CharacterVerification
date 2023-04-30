@@ -1,0 +1,498 @@
+<h3 class="basicDetail">Character Verification Form
+  <br> 
+  <p>(Please fill in English Only)</p>
+</h3>
+
+<!-- <nav>
+  <div class="buttons">
+    <a routerLink="next"><button class="buttonTypes">Continue</button></a>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+<footer></footer> -->
+
+<form id="fullform"></form>
+<form id="ApplicantDetail">
+  <!-- <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"> -->
+
+  <div class="form-group">
+    <p class="formlines">Applicant's Detail</p>
+    <div class="date">
+      <label for="adm">Date</label>
+      <input type="month" name="doa" />
+    </div>
+    <input
+      type="fname"
+      class="form-control"
+      id="autocomplete"
+      placeholder="First Name"
+    />
+
+    <input
+      type="midname"
+      class="form-control"
+      id="autocomplete"
+      placeholder="Middle Name"
+    />
+
+    <input
+      type="lname"
+      class="form-control"
+      id="autocomplete"
+      placeholder="Last Name"
+    />
+
+    <select class="form-control" id="gender">
+      <option selected>Gender</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+      <option value="3">Transgender</option>
+    </select>
+
+    <input
+      type="ssoId"
+      class="form-control"
+      id="autocomplete"
+      placeholder="SSO Id"
+    />
+
+    <!-- <div class="periodFrom">
+            <label for="adm">Period From:</label>
+            <input type="month" name="doa">
+        </div>       -->
+    <!-- <div class="periodTo">
+            <label for="adm">Period To:</label>
+            <input type="month" name="doa" id="ToPeriod">
+        </div>    -->
+    <input
+      type="fatherfirst"
+      class="form-control"
+      id="autocomplete"
+      placeholder="Father's First Name"
+    />
+
+    <input
+      type="fatherlast"
+      class="form-control"
+      id="autocomplete"
+      placeholder="Father's Last Name"
+    />
+
+    <input
+      type="email"
+      class="form-control"
+      id="autocomplete"
+      placeholder="E-Mail"
+    />
+  </div>
+</form>
+
+<!-- <div class="more">Basic Detail</div> -->
+
+<form id="PresentAddress">
+  <div class="form-group">
+    <p class="formlines">Present Address</p>
+    <input
+      type="street"
+      class="form-control"
+      id="autocomplete"
+      placeholder="Street"
+    />
+
+    <input type="city" class="form-control" id="inputCity" placeholder="City" />
+    <!-- <input
+      type="district"
+      class="form-control"
+      id="inputCity"
+      placeholder="District"
+    /> -->
+    <select class="form-control" id="inputDistrict">
+      <option selected>District</option>
+      <option value="1">Ajmer</option>
+      <option value="2">Alwar</option>
+      <option value="3">Banswara</option>
+      <option value="4">Baran</option>
+      <option value="5">Barmer</option>
+      <option value="6">Bharatpur</option>
+      <option value="7">Bhilwara</option>
+      <option value="8">Bikaner</option>
+      <option value="9">Bundi</option>
+      <option value="10">Chittorgarh</option>
+      <option value="11">Churu</option>
+      <option value="12">Dausa</option>
+      <option value="13">Dholpur</option>
+      <option value="14">Dungarpur</option>
+      <option value="15">Hanumangarh</option>
+      <option value="16">Jaipur</option>
+      <option value="17">Jaisalmer</option>
+      <option value="18">Jalore</option>
+      <option value="19">Jhunjhunu</option>
+      <option value="20">Jhalawar</option>
+      <option value="21">Jodhpur</option>
+      <option value="22">Karauli</option>
+      <option value="23">Kota</option>
+      <option value="24">Nagaur</option>
+      <option value="25">Pali</option>
+      <option value="26">Pratapgarh</option>
+      <option value="27">Rajsamand</option>
+      <option value="28">Sawai Madhopur</option>
+      <option value="29">Sikar</option>
+      <option value="30">Sirohi</option>
+      <option value="31"> Sri Ganganagar</option>
+      <option value="32"> Tonk</option>
+      <option value="33"> Udaipur</option>
+    </select>
+    
+
+  
+    <input
+      type="state"
+      class="form-control"
+      id="inputState"
+      placeholder="State"
+    />
+
+    <input type="zip" class="form-control" id="inputZip" placeholder="Zip" />
+
+    <input
+      type="country"
+      class="form-control"
+      id="inputCountry"
+      placeholder="Country"
+    />
+
+    <select class="form-control" id="inputStation">
+      <option selected>Police Station</option>
+      <option value="1">Shyam Nagar</option>
+      <option value="2">Durgapura</option>
+      <option value="3">Shipra Path</option>
+      <option value="4">Civil Lines</option>
+      <option value="5">Lalkothi</option>
+      <option value="6">Pratap Nagar</option>
+      <option value="7">Jagatpura</option>
+      <option value="8">Vaishali</option>
+      <option value="9">Jyoti Nagar</option>
+    </select>
+
+    
+
+  </div>
+</form>
+
+<form id="PresentAddress">
+  <div class="form-group">
+    <p class="formlines">Permanent Address</p>
+    <input
+      type="street"
+      class="form-control"
+      id="autocomplete"
+      placeholder="Street"
+    />
+
+    <input type="city" class="form-control" id="inputCity" placeholder="City" />
+    <select class="form-control" id="inputDistrict">
+      <option selected>District</option>
+      <option value="1">Ajmer</option>
+      <option value="2">Alwar</option>
+      <option value="3">Banswara</option>
+      <option value="4">Baran</option>
+      <option value="5">Barmer</option>
+      <option value="6">Bharatpur</option>
+      <option value="7">Bhilwara</option>
+      <option value="8">Bikaner</option>
+      <option value="9">Bundi</option>
+      <option value="10">Chittorgarh</option>
+      <option value="11">Churu</option>
+      <option value="12">Dausa</option>
+      <option value="13">Dholpur</option>
+      <option value="14">Dungarpur</option>
+      <option value="15">Hanumangarh</option>
+      <option value="16">Jaipur</option>
+      <option value="17">Jaisalmer</option>
+      <option value="18">Jalore</option>
+      <option value="19">Jhunjhunu</option>
+      <option value="20">Jhalawar</option>
+      <option value="21">Jodhpur</option>
+      <option value="22">Karauli</option>
+      <option value="23">Kota</option>
+      <option value="24">Nagaur</option>
+      <option value="25">Pali</option>
+      <option value="26">Pratapgarh</option>
+      <option value="27">Rajsamand</option>
+      <option value="28">Sawai Madhopur</option>
+      <option value="29">Sikar</option>
+      <option value="30">Sirohi</option>
+      <option value="31"> Sri Ganganagar</option>
+      <option value="32"> Tonk</option>
+      <option value="33"> Udaipur</option>
+    </select>
+
+    <input
+      type="state"
+      class="form-control"
+      id="inputState"
+      placeholder="State"
+    />
+
+    <input type="zip" class="form-control" id="inputZip" placeholder="Zip" />
+
+    <input
+      type="country"
+      class="form-control"
+      id="inputCountry"
+      placeholder="Country"
+    />
+
+    <select class="form-control" id="inputStation">
+      <option selected>Police Station</option>
+      <option value="1">Shyam Nagar</option>
+      <option value="2">Durgapura</option>
+      <option value="3">Shipra Path</option>
+      <option value="4">Civil Lines</option>
+      <option value="5">Lalkothi</option>
+      <option value="6">Pratap Nagar</option>
+      <option value="7">Jagatpura</option>
+      <option value="8">Vaishali</option>
+      <option value="9">Jyoti Nagar</option>
+    </select>
+  
+  </div>
+</form>
+
+<!-- <h3 class="basicDetail">Basic Details</h3> -->
+
+<!-- <nav>
+  <div class="buttons">
+    <a routerLink="next"><button class="buttonTypes">Continue</button></a>
+  </div>
+</nav> -->
+
+<form id="DocumentDetails">
+  <div class="form-group">
+    <p class="formlines">Document Details</p>
+    <select class="form-control" id="photoid">
+      <option selected>Photo Id Type First</option>
+      <option value="1">Aadhar Card</option>
+      <option value="2">PAN</option>
+      <option value="3">Voter's Id</option>
+    </select>
+
+    <input
+      type="text"
+      class="form-control"
+      id="inputID"
+      placeholder="Photo Id Number First"
+    />
+    <select class="form-control" id="photoid">
+      <option selected>Photo Id Type Second</option>
+      <option value="1">Aadhar Card</option>
+      <option value="2">PAN</option>
+      <option value="3">Voter's Id</option>
+    </select>
+
+    <input
+      type="text"
+      class="form-control"
+      id="inputID"
+      placeholder="Photo Id Number Second"
+    />
+    <select class="form-control" id="photoid">
+      <option selected>Photo Id Type Third</option>
+      <option value="1">Aadhar Card</option>
+      <option value="2">PAN</option>
+      <option value="3">Voter's Id</option>
+    </select>
+
+    <input
+      type="state"
+      class="form-control"
+      id="inputID"
+      placeholder="Photo Id Number Third"
+    />
+  </div>
+</form>
+
+<form id="ContactDetails">
+  <div class="form-group">
+    <p class="formlines">Contact Details</p>
+
+    <input
+      type="tel"
+      class="form-control"
+      id="inputcontact"
+      placeholder="Mobile No."
+    />
+    <input
+      type="tel"
+      class="form-control"
+      id="inputcontact"
+      placeholder="Telephone No."
+    />
+    <input
+      type="tel"
+      class="form-control"
+      id="inputcontact"
+      placeholder="Optional Mobile No."
+    />
+  </div>
+</form>
+
+<p class="formlines">Important Details</p>
+
+<div class="tableform">
+  <p class="tablelines">ID</p>
+  <p class="tablelines">Area</p>
+  <p class="tablelines"></p>
+  <p class="tablelines">Address</p>
+  <p class="tablelines">From</p>
+  <p class="tablelines">To</p>
+  <p class="tablelines">Remark</p>
+  <p class="tablelines">Revert</p>
+  <p class="tablelines">Transfer From</p>
+  <p class="tablelines">Transfer To</p>
+  <p class="tablelines">Document Details</p>
+</div>
+
+<div class="boxform">
+  <div class="box"></div>
+  <div class="box">
+    <input
+      type="country"
+      class="form-control"
+      id="boxbox"
+      placeholder="Country"
+    />
+
+    <input
+      type="district"
+      class="form-control"
+      id="boxbox"
+      placeholder="District"
+    />
+
+    
+  </div>
+  <div class="box">
+    <input type="state" class="form-control" id="boxbox" placeholder="State" />
+    <select class="form-control" id="boxbox">
+      <option selected>Police Station</option>
+      <option value="1">Shyam Nagar</option>
+      <option value="2">Durgapura</option>
+      <option value="3">Shipra Path</option>
+      <option value="4">Civil Lines</option>
+      <option value="5">Lalkothi</option>
+      <option value="6">Pratap Nagar</option>
+      <option value="7">Jagatpura</option>
+      <option value="8">Vaishali</option>
+      <option value="9">Jyoti Nagar</option>
+    </select>
+  </div>
+  <div class="box">
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+  </div>
+  <div class="box" id="tofrom">
+    <input type="month" name="doa" id="tofromdate" />
+  </div>
+  <div class="box" id="tofrom">
+    <input type="month" name="doa" id="tofromdate" />
+  </div>
+  <div class="box">
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+  </div>
+  <div class="box">
+    <label>
+      <input type="radio" name="choice-radio" />
+      Yes
+    </label>
+    <label>
+      <input type="radio" name="choice-radio" />
+      No
+    </label>
+  </div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box">
+    <button id="boxbutton">Delete</button>
+  </div>
+</div>
+
+<p class="formlines"></p>
+
+<!-- <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/> -->
+<!-- <button type="button" (click)="onUpload(ev)"></button> -->
+
+<p class="imageUpload">Upload Details</p>
+
+<div class="imageform">
+  <p class="imagelines">Photo ID 1</p>
+  <p class="imagelines">Photo ID 2</p>
+  <p class="imagelines">Residence ID Proof</p>
+  <p class="imagelines">Photo</p>
+</div>
+
+<div class="boximage">
+  <div class="boxphoto">
+    <p class="image">1. Front Side</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+<br><br><br>
+    <p class="image">2. Back Side</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+  </div>
+  <div class="boxphoto">
+    <p class="image">1. Front Side</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+<br><br><br>
+    <p class="image">2. Back Side</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+  </div>
+  <div class="boxphoto">
+    <p class="image">1. Front Side</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+<br><br><br>
+    <p class="image">2. Back Side</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+  </div>
+  <div class="boxphoto">
+    <p class="image">• Applicant's Photo</p>
+    <input
+  type="file"
+  (change)="onFileSelected($event)"
+  class="fileupload"
+/>
+  </div>
+</div>
+
+<p class="formlines"></p>

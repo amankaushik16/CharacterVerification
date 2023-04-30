@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Character Verification</title>
+  </head>
+  <body>
+    <div class="heading">
+      <div class="title">
+        <h1>Character Verification</h1>
+        <div id="logo">
+          <img src="../assets/logo/Rajasthan_Police_Logo.png" alt="" />
+        </div>
+      </div>
+      <p class="intro">
+        कृपया आवेदन पत्र में विवरण इंद्राज करते समय यह सुनिश्चित किया जावे की
+        सम्पूर्ण विवरण का इंद्राज सही है | यदि आवेदन पत्र के त्रुटिया पाई जाती
+        है तो आपके आवेदन पत्र का पुलिस सत्यापन किआ जाना संभव नहीं हो सकेगा | अतः
+        आवेदन पत्र मई समय विवरण का सही इंद्राज आवेदनकर्ता से पुष्टि करवा कर किआ
+        जाना सुनिश्चित करे |
+      </p>
+    </div>
+
+    <div class="buttonRow">
+      <!-- <div class="buttonTypes">
+    <a href="" target="_blank"><button type="faq" class="btn btn-primary mb-3">FAQ's</button></a>
+     <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+    <div class="buttonTypes">
+    <a href="" target="_blank"><button type="faq" class="btn btn-primary mb-3">Form</button></a>
+    </div>
+    <div class="buttonTypes">
+    <a href="" target="_blank"><button type="faq" class="btn btn-primary mb-3">SP Office</button></a>
+    </div>
+    <div class="buttonTypes">
+    <a href="" target="_blank"><button type="faq" class="btn btn-primary mb-3">Download</button></a>
+    </div> -->
+      <!-- <button (click)="gotoFaq('faq')">FAQ's</button> -->
+      <nav>
+        <div class="buttons">
+          <a routerLink="home"><button class="buttonTypes">Home</button></a>
+          <a routerLink="faq"> <button class="buttonTypes">FAQ's</button></a>
+          <a routerLink="form"> <button class="buttonTypes">Form</button></a>
+          <a routerLink=""><button class="buttonTypes">Retrieve</button></a>
+        </div>
+      </nav>
+
+      <router-outlet></router-outlet>
+      <footer></footer>
+    </div>
+
+    <!-- <h1 class="rembody">Will add as instructed</h1> -->
+  </body>
+</html>
